@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin:0;
+}
+html,body{
+    background-color: black;
+}
+.title{
+    color:aliceblue;
+    font-family: 'Amiri', sans-serif;
+    font-size:40px;
+    margin:0 auto;
+    padding-top:20px;
+    padding-top, padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin:0 auto;
+  padding-top: 20px;
+  width:90%;
+}
+.img2,.img3,.img4,.img5,.img6,.img1{
+    display: flex;
+    flex: 0 0 32%;
+    justify-content: center;
+    align-items: center;
+    margin: 0.66%;
+}
+img{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
